@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-// this is a multi player game.
+// this is a multi player game...
 
 int main(void) {
   int number_of_players;
