@@ -1,0 +1,31 @@
+import random
+
+min = 1
+
+max = 6
+
+
+die_1 = random.randint(min,max)
+
+die_2 = random.randint(min,max)
+
+
+print("Number on first die is ",die_1)
+
+print("Number on second die is ",die_2)
+
+
+
+total= die_1 + die_2
+
+print("The sum of your numbers is ",total)
+
+
+
+if(total == 12):
+    
+  print("You won!")
+
+else:
+    
+  print("Oopss! Better luck next time.")
